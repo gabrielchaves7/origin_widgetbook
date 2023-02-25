@@ -1,0 +1,28 @@
+name: origin_widgetbook
+description: Origin Widgetbook.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: 3.7.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.1
+  origin_design_system:
+    git:
+      url: https://github.com/gabrielchaves7/origin_design_system
+      ref: main
+  widgetbook: ^2.4.1
+  
+dev_dependencies:
+  build_runner: ^2.3.2
+  flutter_test:
+    sdk: flutter
+  widgetbook_annotation: ^2.1.0
+  widgetbook_generator: ^2.4.1  
+
+flutter:
+  uses-material-design: true
