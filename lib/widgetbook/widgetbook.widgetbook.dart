@@ -23,8 +23,8 @@ import 'package:origin_widgetbook/widgetbook/usecases/atoms/origin_logo_usecase.
 import 'package:origin_widgetbook/widgetbook/usecases/atoms/origin_outlined_button_usecase.dart';
 import 'package:origin_widgetbook/widgetbook/usecases/molecules/origin_app_bar_usecase.dart';
 import 'package:origin_widgetbook/widgetbook/usecases/molecules/origin_flip_card_usecase.dart';
-import 'package:origin_widgetbook/widgetbook/usecases/molecules/origin_icon_and_text.dart';
-import 'package:origin_widgetbook/widgetbook/usecases/molecules/origin_text_form_field.dart';
+import 'package:origin_widgetbook/widgetbook/usecases/molecules/origin_icon_and_text_usecase.dart';
+import 'package:origin_widgetbook/widgetbook/usecases/molecules/origin_text_form_field_usecase.dart';
 import 'package:origin_widgetbook/widgetbook/usecases/organisms/origin_page_usecase.dart';
 import 'package:origin_widgetbook/widgetbook/widgetbook.dart';
 import 'package:widgetbook/widgetbook.dart';

@@ -9,7 +9,7 @@ Widget originIconAndText(BuildContext context) {
   return Column(
     children: [
       OriginIconAndText(
-        iconPath: Assets.origin_design_system$assets_origin_icon_circle_svg,
+        iconPath: 'packages/origin_design_system/assets/origin_icon_circle.svg',
         texts: context.knobs.options(
           label: 'Error text',
           options: [
